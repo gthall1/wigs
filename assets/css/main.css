@@ -7,6 +7,11 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/* section 3 icons + headings */
+ .middlepart {
+ 	text-align: center;
+ }
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2331,6 +2336,11 @@
 		position: relative;
 	}
 
+	.wigslogo {
+		padding-left: 2em;
+		padding-top: 3px;
+	}
+
 		.image img {
 			border-radius: 0;
 			display: block;
@@ -3112,7 +3122,7 @@
 	}
 
 		#header .inner {
-			max-width: 65em;
+			/*  max-width: 65em;  */
 			width: calc(100% - 6em);
 			margin: 0 auto;
 			position: relative;
@@ -3154,7 +3164,7 @@
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
-			padding: 0 2em;
+			padding: 0 1.5em;
 			color: #ffffff;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -3365,7 +3375,7 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/test_banner_3.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
@@ -3434,8 +3444,8 @@
 			#banner button.alt,
 			#banner .button.alt {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #fff;
-				color: #ffffff !important;
+				box-shadow: inset 0 0 0 2px #e5474b;
+				color: #e5474b !important;
 			}
 
 				#banner input[type="submit"].alt:hover,
@@ -3524,7 +3534,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 10em 0 8em 0;
+				padding: 22em 0 8em 0;
 			}
 
 		}
@@ -3540,7 +3550,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 0 10em 0;
+				/* padding: 12em 0 10em 0; */
 			}
 
 				#banner br {
@@ -3597,6 +3607,15 @@
 				padding: 2em 0 0.1em 0;
 			}
 
+		}
+
+		#brands {
+			padding: 6em 0 4em 0;
+			background-color: #424342;
+		}
+
+		.bumpup {
+			padding-top: 2em;
 		}
 
 	#two {
