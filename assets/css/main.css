@@ -3375,7 +3375,7 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/test_banner_3.jpg");
+		background-image: url("../../images/banner_filter.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
@@ -3493,8 +3493,8 @@
 			display: block;
 			top: 0;
 			left: 0;
-			background-color: #0c0c0c;
-			opacity: 0.25;
+			/* background-color: #0c0c0c;
+			opacity: 0.25;  */
 		}
 
 		#banner .inner {
@@ -3550,7 +3550,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				/* padding: 12em 0 10em 0; */
+				padding: 12em 0 10em 0;
 			}
 
 				#banner br {
