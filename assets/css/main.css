@@ -12,6 +12,12 @@
  	text-align: center;
  }
 
+ /* red color for phone number */
+
+ .phonered {
+ 	color: #e5474b;
+ }
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -3219,6 +3225,7 @@
 		width: 4em;
 		display: none;
 		z-index: 10002;
+		margin-top: -23px;
 	}
 
 		.navPanelToggle:before {
@@ -3251,7 +3258,7 @@
 		@media screen and (max-width: 736px) {
 
 			.navPanelToggle {
-				right: 1em;
+				right: 2em;
 			}
 
 		}
@@ -3259,14 +3266,14 @@
 		.navPanelToggle *:before {
 			color: #fff;
 			display: block;
-			font-size: 16px;
+			font-size: 34px;
 			height: 2.25em;
 			left: 0.5em;
 			line-height: 2.25em;
 			position: absolute;
 			text-align: center;
 			top: 0.5em;
-			width: 3.5em;
+			width: 2.5em;
 		}
 
 	#navPanel {
