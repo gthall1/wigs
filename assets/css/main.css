@@ -15,7 +15,7 @@
  /* red color for phone number */
 
  .phonered {
- 	color: #e5474b;
+ 	color: #3BFE00;
  }
 
 /* Reset */
@@ -1800,7 +1800,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #e5474b;
+		color: #3BFE00;
 	}
 
 	blockquote {
@@ -1968,8 +1968,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e5474b;
-			color: #e5474b !important;
+			box-shadow: inset 0 0 0 2px #3BFE00;
+			color: #3BFE00 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2644,7 +2644,7 @@
 			}
 
 	table tbody tr {
-		border-color: #e5474b;
+		border-color: #3BFE00;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
@@ -2652,11 +2652,11 @@
 		}
 
 	table th {
-		color: #e5474b;
+		color: #3BFE00;
 	}
 
 	table thead {
-		border-bottom-color: #e5474b;
+		border-bottom-color: #3BFE00;
 	}
 
 	table tfoot {
@@ -3451,8 +3451,8 @@
 			#banner button.alt,
 			#banner .button.alt {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #e5474b;
-				color: #e5474b !important;
+				box-shadow: inset 0 0 0 2px #3BFE00;
+				color: #3BFE00 !important;
 			}
 
 				#banner input[type="submit"].alt:hover,
@@ -3742,7 +3742,7 @@
 				}
 
 				#three .inner article .icon {
-					color: #b3b3b3;
+					color: #000000;
 					font-size: 3em;
 				}
 
@@ -3781,18 +3781,18 @@
 /* Footer */
 
 	#footer {
-		background-color: #e5474b;
-		color: #f2a3a5;
+		background-color: #3BFE00;
+		color: #4E6151;
 		padding: 4em 0 2em 0;
-		background: #e5474b;
+		background: #3BFE00;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #ffffff;
+			color: #4E6151;
 		}
 
 		#footer a {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#footer strong, #footer b {
@@ -3800,7 +3800,7 @@
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #fff;
+			color: #000000;
 		}
 
 		#footer blockquote {
@@ -3847,8 +3847,8 @@
 			#footer button.alt,
 			#footer .button.alt {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #fff;
-				color: #ffffff !important;
+				box-shadow: inset 0 0 0 2px #000000;
+				color: #000000 !important;
 			}
 
 				#footer input[type="submit"].alt:hover,
@@ -3885,7 +3885,7 @@
 			}
 
 		#footer label {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#footer input[type="text"],
@@ -3894,7 +3894,7 @@
 		#footer select,
 		#footer textarea {
 			background: none;
-			border-color: rgba(255, 255, 255, 0.25);
+			border-color: rgba(0, 0, 0, 0.25);
 		}
 
 			#footer input[type="text"]:focus,
