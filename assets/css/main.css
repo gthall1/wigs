@@ -22,6 +22,11 @@
  	color: #000000;
  }
 
+ .properspacing {
+ 	letter-spacing: 1px;
+ 	word-spacing: 4px;
+ }
+
  .shorttable {
  	width: 50%;
  	margin-left: 25%;
