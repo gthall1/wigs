@@ -18,6 +18,15 @@
  	color: #3BFE00;
  }
 
+ .bikevid {
+ 	display: block;
+ 	margin: auto;
+ }
+
+ .sponsors {
+ 	list-style-type: none;
+ }
+
  .paintitblack {
  	color: #000000;
  }
