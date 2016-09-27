@@ -23,6 +23,15 @@
  	margin: auto;
  }
 
+ @media screen and (max-width: 736px) {
+
+			.bikevid {
+				width: 90%;
+				height: 50%;
+			}
+
+		}
+
  .sponsors {
  	list-style-type: none;
  }
