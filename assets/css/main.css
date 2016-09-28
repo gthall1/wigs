@@ -18,6 +18,13 @@
  	color: #3BFE00;
  }
 
+ .skatedesk {
+ 	width: 70%;
+ 	display: block;
+ 	margin: auto;
+ 	padding: 1em 0 3em 0;
+ }
+
  .bikevid {
  	display: block;
  	margin: auto;
@@ -2471,7 +2478,7 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		/*  padding-left: 1em;  */
 	}
 
 		ul li {
