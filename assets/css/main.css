@@ -32,6 +32,7 @@
 
 		}
 
+
  .sponsors {
  	list-style-type: none;
  }
@@ -3645,6 +3646,7 @@
 
 			#banner {
 				padding: 5em 0 3em 0;
+				background-position-x: 70%;
 			}
 
 				#banner ul {
