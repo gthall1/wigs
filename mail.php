@@ -4,9 +4,9 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Email: $email \n Message: $message";
-$recipient = "griff@getluckee.com";
+$recipient = "wigswheels@gmail.com";
 $subject = "Website Contact Form";
-$mailheader = "From: $email \r\n";
+$mailheader = "From: wigswheels@gmail.com \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 
 
